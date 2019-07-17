@@ -45,14 +45,34 @@ body{
 }
 
 .icon{
-	border: 1px solid black;
 	margin: auto 0;
+	padding: 20px;
+}
+
+.icon a{
+	color: #3A4F90;
+}
+
+.icon a:hover{
+	color: rgb(233, 233, 233)
+}
+
+.fab{
+	float: right;
+	margin: auto;
+	font-size: 30px;
 }
 
 footer{
 	background-color: #BAB7E1;
-	padding: 70px;
 	margin-top: 100px;
+	width: 100%;
+
+}
+
+footer p{
+	margin-top: 25px;
+	margin-left: 20px;
 }
 
 h4{
