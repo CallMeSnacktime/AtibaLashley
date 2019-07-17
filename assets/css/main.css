@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+.bio{
+	text-align: center;
+	max-width: 80%;
+	min-width: 400px;
+	margin: auto;
+}
+.bio h1{
+	color: #3A4F90;
+	text-decoration: underline;
+}
+.bio h2{
+	color: #3A4F90;
+	text-decoration: underline;
+}
+
+.bio p{
+	font-weight: 900;
+	line-height: 1.5;
+}
+
+body{
+	background-color: #3A4F90;
+}
+
+.container{
+	background-color: rgb(233, 233, 233);
+	border: 1px solid #BAB7E1;
+	border-radius: 25px;
+}
+
+.container-fluid{
+	margin: 30px auto 100px auto;
+	padding: 50px 0 100px 0;
+	background-color: rgb(233, 233, 233);
+}
+
+.col{
+	padding: 10px;
+}
+
+.demo{
+	text-align: center;
+	padding: 10px;
+}
+
+.icon{
+	border: 1px solid black;
+	margin: auto 0;
+}
+
+footer{
+	background-color: #BAB7E1;
+	padding: 70px;
+	margin-top: 100px;
+}
+
+h4{
+	color: #3A4F90;
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	background-color: rgb(186, 183, 225, .7);
+}
+
+#mainNav .nav-link:hover{
+	color: rgb(233, 233, 233);
+}
+
+p{
+	color: #3A4F90;
+}
+
+.page{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.project{
+	max-width: 240px;
+	display: block;
+	margin: 10px auto 0 auto;
+	padding:0;
+	border: 1px solid rgb(62, 117, 62);
+}
+
+.skills{
+	display: inline;
+	margin: 5px 0 5px 5px;
+	background-color: rgb(62, 117, 62);
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 3px;
+}
+
